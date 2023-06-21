@@ -1,7 +1,7 @@
 import React from "react";
 
-const Button = () => {
-  return <button>Press Me!</button>;
+const Button = ({ variant = "" }) => {
+  return <button>Default</button>;
 };
 
 export default Button;
