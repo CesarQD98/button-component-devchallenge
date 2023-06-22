@@ -24,6 +24,12 @@ const ButtonTable = () => {
           <Button variant="text" />
         </ButtonDisplayer>
       </div>
+
+      <div className="button-table-row">
+        <ButtonDisplayer title="<Button disableShadow/>">
+          <Button variant="text" disableShadow />
+        </ButtonDisplayer>
+      </div>
     </>
   );
 };
