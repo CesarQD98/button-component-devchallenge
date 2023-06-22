@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -56,7 +58,7 @@ button {
   background-color: #e0e0e0;
   color: #3f3f3f;
   cursor: pointer;
-  transition: background-color 0.25s;
+  transition: all 0.35s;
 }
 button:hover,
 button:focus,
