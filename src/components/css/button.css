@@ -1,0 +1,48 @@
+.button-default {
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 3px 0px #33333333;
+}
+
+.button-default:hover,
+.button-default:focus,
+.button-default:focus-visible {
+  background-color: #aeaeae;
+}
+
+.button-outline {
+  border: 1px solid #3d5afe;
+  background-color: transparent;
+  color: #3d5afe;
+}
+
+.button-outline:hover,
+.button-outline:focus,
+.button-outline:focus-visible {
+  background-color: #3d5afe24;
+}
+
+.button-text {
+  border: 0 dotted #3d5afe;
+  margin: 0 0;
+  background-color: transparent;
+  color: #3d5afe;
+}
+
+.button-text:hover,
+.button-text:focus,
+.button-text:focus-visible {
+  background-color: #3d5afe24;
+}
+
+.disableShadow {
+  background-color: var(--primary);
+  color: white;
+}
+
+.disableShadow:hover,
+.disableShadow:focus,
+.disableShadow:focus-visible {
+  background-color: var(--primary);
+  box-shadow: 0px 2px 5px 2px #33333333;
+  color: white;
+}

@@ -1,9 +1,13 @@
 import React from "react";
 
-const Button = ({ variant = "default" }) => {
+import "./css/button.css";
+
+const Button = ({ variant = "default", disableShadow = false }) => {
   console.log("variant →", variant);
 
-  const classNameVariant = "button-" + variant;
+  let classNameVariant = "button-" + variant;
+
+  disableShadow ? (classNameVariant += " disableShadow") : "";
 
   console.log("classNameVariant →", classNameVariant);
 
